@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1</title>
+  <meta charset="utf-8">
+  <style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 49.9%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #F3D3D3;
+}
+
+.right {
+  right: 0;
+  background-color: #D1CDCD;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 500px;
+  height: 300px;
+}
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <img src="p_coding1.jpg">
+    <h2>HTML</h2>
+    <p><a href="1.html">Go to definition</a></p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <img src="p_coding2.jpg">
+    <h2>CSS</h2>
+    <p><a href="2.html">Go to definition</a></p>
+  </div>
+</div>
+
+</body>
+</html>

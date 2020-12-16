@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+ <head>
+   <title>WEB1 - CSS</title>
+   <meta charset="utf-8">
+    <style>
+    body {
+      font-family: Arial;
+      color: white;
+    }
+    .split {
+      height: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .left {
+      left: 0;
+      background-color: #F3D3D3;
+      width: 20%;
+    }
+
+    .right {
+      right: 0;
+      background-color: #D1CDCD;
+      width: 80%;
+    }
+
+    .centered {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .right1 {
+      position: absolute;
+      top: 30%;
+      left: 60%;
+      transform: translate(-70%, -30%);
+      text-align: center;
+    }
+  </style>
+</head>
+
+ <body>
+        <div class="split left">
+        <div class="centered">
+          <h1><a href="index.html">WEB</a></h1>
+          <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+          </ol>
+        </div>
+        </div>
+        <div class="split right">
+          <div class="right1">
+          <h1 style="color: #1C1C1C; font-size: 50px">CSS</h1>
+          <h2><a href="https://en.wikipedia.org/wiki/CSS" target="_blank" title="CSS wikipedia">definition</a></h2>
+          <p style="font-size: 20px">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.<br>
+            CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+          </div>
+        </div>
+ </body>
+</html>
